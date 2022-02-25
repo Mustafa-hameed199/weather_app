@@ -1,29 +1,12 @@
-# vueweatherapp
+# Weather App
 
-## Project setup
-```
-npm install
-```
+## Technologies
+* HTML
+* Scss
+* Vue
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## description
+just an easy weather app with just a few functionality and changing background image with weather state
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Live view [app](http://VueApp.netlify.app)
