@@ -38,7 +38,8 @@ export default {
             temp: "",
             day: "",
             state: "",
-            api_url: "http://api.openweathermap.org/data/2.5/weather",
+            // api_url: "http://api.openweathermap.org/data/2.5/weather",
+            api_url: "https://api.openweathermap.org/data/2.5/weather",
             api_key: "24404cd0907841d2d041e7ad259cc5cb",
             city: "",
         };
@@ -46,7 +47,7 @@ export default {
     methods: {
         async getWeather(e) {
             if (e.keyCode == 13) {
-                let fullURL = `${this.api_url}?q=${this.city}&appid=${this.api_key}&units=metric`;
+                let fullURL = `${this.api_url}?q=${this.city}&APPID=${this.api_key}&units=metric`;
                 try {
                     const getData = await fetch(fullURL);
                     const data = await getData.json();
